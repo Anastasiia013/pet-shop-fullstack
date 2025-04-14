@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 80px; */
+    /* padding: 0px 40px; */
+}
+
+.link {
+    text-decoration: none;
+    list-style: none;
+}
+
+.h1Main {
+    font-size: 96px;
+    font-weight: 700;
+    color: var(--white-text);
+    width: 80%;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 110%;
+    color: var(--main-text-color);
+}
+

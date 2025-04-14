@@ -1,0 +1,13 @@
+/* BreadCrumbs.module.css */
+.breadcrumbs {
+    font-size: 14px;
+    color: #555;
+    padding: 10px 0;
+}
+.breadcrumbs a {
+    color: #007acc;
+    text-decoration: none;
+}
+.breadcrumbs span {
+    color: #999;
+}

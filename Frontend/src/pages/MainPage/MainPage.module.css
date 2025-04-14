@@ -1,0 +1,37 @@
+.heroSection {
+    position: relative;
+    /* height: 90vh; */
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    padding: 80px 40px 0px;
+    gap: 40px;
+}
+
+.heroSection::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(/headerImg/main-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scaleX(-1);
+    z-index: -1;
+}
+
+.checkOutBtn {
+    background-color: var(--blue-btn);
+    outline: none;
+    border: transparent;
+    border-radius: 6px;
+    width: 20%;
+    padding: 16px 56px;
+    cursor: pointer;
+    color: var(--white-text);
+    font-size: 20px;
+    line-height: 130%;
+    font-weight: 600;
+}
