@@ -31,5 +31,10 @@ h2 {
     font-weight: 700;
     line-height: 110%;
     color: var(--main-text-color);
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
 }
 

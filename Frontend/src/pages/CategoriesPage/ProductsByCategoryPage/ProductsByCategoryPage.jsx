@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-import ProductList from "../../../components/ProductsList/ProductsList";
+import ProductList from "../../../components/ProductList/ProductList";
 import Breadcrumbs from "../../../components/BreadCrumbs/BreadCrumbs";
 import { getSingleCategory } from "../../../api/categories";
 

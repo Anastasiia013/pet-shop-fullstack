@@ -18,7 +18,7 @@ const Categories = ({ limit }) => {
                 const data = await getCategories(limit);
                 setCategories(data);
             } catch (error) {
-                setError(error.message || 'Ой, произошла ошибка при загрузке категорий');
+                setError(error.message || 'Error on loading categories');
             } finally {
                 setLoading(false);
             }

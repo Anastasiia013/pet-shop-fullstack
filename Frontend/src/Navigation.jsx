@@ -1,7 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
 
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
 import MainPage from './pages/MainPage/MainPage'
 import CategoriesPage from './pages/CategoriesPage/CategoriesPage'
 import AllProductsPage from './pages/AllProductsPage/AllProductsPage'
@@ -16,7 +14,6 @@ function Navigation() {
 
     return (
         <>
-            <Header />
             <Routes>
                 <Route path='/' element={<MainPage />} />
 
@@ -33,7 +30,6 @@ function Navigation() {
                 <Route path='/success' element={<OrderSuccessPage />} />
                 <Route path='*' element={<NotFoundPage />} />
             </Routes>
-            <Footer />
         </>
     )
 }

@@ -1,4 +1,6 @@
 import Categories from '../../components/Categories/Categories';
+import Sales from '../../components/Sales/Sales';
+
 import styles from './MainPage.module.css'
 
 const MainPage = () => {
@@ -9,6 +11,7 @@ const MainPage = () => {
                 <button className={styles.checkOutBtn}>Check out</button>
             </section>
             <Categories limit={4} />
+            <Sales limit={4} titleLink="/sales" title="Sales"/>
 
         </main>
     )

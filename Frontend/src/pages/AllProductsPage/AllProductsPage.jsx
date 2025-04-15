@@ -1,4 +1,4 @@
-import ProductList from "../../components/ProductsList/ProductsList";
+import ProductList from "../../components/ProductList/ProductList";
 import Breadcrumbs from "../../components/BreadCrumbs/BreadCrumbs";
 import { getAllProducts } from "../../api/products";
 
@@ -9,7 +9,7 @@ const AllProductsPage = () => {
                 { name: "All Products", to: "/products" }]} />
             <ProductList
                 fetcher={getAllProducts}
-                title="AllProducts"
+                title="All Products"
                 pathBuilder={(id) => `/products/${id}`}
             />
         </main>

@@ -1,13 +1,3 @@
-
-
-.productsList {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 32px;
-    align-content: center;
-    list-style: none;
-}
-
 .productItem {
     text-decoration: none;
     color: var(--main-text-color);
