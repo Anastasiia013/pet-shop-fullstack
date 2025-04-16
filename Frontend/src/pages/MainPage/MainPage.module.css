@@ -20,17 +20,3 @@
     transform: scaleX(-1);
     z-index: -1;
 }
-
-.checkOutBtn {
-    background-color: var(--blue-btn);
-    outline: none;
-    border: transparent;
-    border-radius: 6px;
-    width: 20%;
-    padding: 16px 56px;
-    cursor: pointer;
-    color: var(--white-text);
-    font-size: 20px;
-    line-height: 130%;
-    font-weight: 600;
-}
