@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { getCategories } from "../../api/categories";
 
-import Section from "../Section/Section";
+import Section from "../../ui/Section/Section";
 import styles from './Categories.module.css';
 
 const Categories = ({ limit }) => {
@@ -25,8 +25,6 @@ const Categories = ({ limit }) => {
         };
         fetchData();
     }, [limit]);
-
-    // const displayedCategories = categories.length > 4 ? categories.slice(0, 4) : categories;
 
     const elements = categories.map(({ id, title, image }) => (
         <li key={id}>

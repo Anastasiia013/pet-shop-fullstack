@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import ProductList from "../../../components/ProductList/ProductList";
-import Breadcrumbs from "../../../components/BreadCrumbs/BreadCrumbs";
+import Breadcrumbs from "../../../layouts/BreadCrumbs/BreadCrumbs";
 import { getSingleCategory } from "../../../api/categories";
 
 const ProductsByCategoryPage = () => {

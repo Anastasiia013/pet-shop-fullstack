@@ -34,6 +34,18 @@ h2 {
     text-decoration: none;
 }
 
+h3{
+    font-size: 40px;
+    line-height: 110%;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+}
+
 a{
     text-decoration: none;
 }

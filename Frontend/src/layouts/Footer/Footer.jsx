@@ -1,4 +1,4 @@
-import Section from '../Section/Section';
+import Section from '../../ui/Section/Section';
 import styles from './Footer.module.css'
 
 const Footer = () => {

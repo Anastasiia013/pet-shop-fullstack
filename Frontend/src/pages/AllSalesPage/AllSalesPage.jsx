@@ -1,4 +1,4 @@
-import Breadcrumbs from "../../components/BreadCrumbs/BreadCrumbs";
+import Breadcrumbs from "../../layouts/BreadCrumbs/BreadCrumbs";
 import Sales from "../../components/Sales/Sales";
 
 const AllSalesPage = () => {

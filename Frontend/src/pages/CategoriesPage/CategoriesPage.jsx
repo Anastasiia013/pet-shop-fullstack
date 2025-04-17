@@ -1,5 +1,5 @@
 import Categories from "../../components/Categories/Categories";
-import Breadcrumbs from "../../components/BreadCrumbs/BreadCrumbs";
+import Breadcrumbs from "../../layouts/BreadCrumbs/BreadCrumbs";
 
 const CategoriesPage = () => {
     return (

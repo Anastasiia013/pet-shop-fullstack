@@ -1,7 +1,4 @@
 .saleBox {
-    position: absolute;
-    top: 16px;
-    right: 16px;
     padding: 4px 8px;
     background-color: var(--blue-btn);
     border-radius: 6px;

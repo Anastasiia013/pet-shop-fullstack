@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import ProductItem from "./ProductItem/ProductItem";
 
-import Section from "../Section/Section";
+import Section from "../../ui/Section/Section";
 import styles from './ProductList.module.css'
 
 const ProductList = ({ fetcher, title, pathBuilder, componentId, filterDiscounted = false, limit = null, titleLink = null }) => {

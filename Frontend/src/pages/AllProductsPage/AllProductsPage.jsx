@@ -1,5 +1,5 @@
 import ProductList from "../../components/ProductList/ProductList";
-import Breadcrumbs from "../../components/BreadCrumbs/BreadCrumbs";
+import Breadcrumbs from "../../layouts/BreadCrumbs/BreadCrumbs";
 import { getAllProducts } from "../../api/products";
 
 const AllProductsPage = () => {

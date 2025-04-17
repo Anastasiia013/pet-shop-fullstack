@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import Section from "../../components/Section/Section";
+import Section from "../../ui/Section/Section";
 
 const NotFoundPage = () => {
     return (

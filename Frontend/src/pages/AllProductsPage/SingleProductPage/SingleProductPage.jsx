@@ -2,8 +2,8 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import SingleProduct from "../../../components/Product/SingleProduct";
-import Breadcrumbs from "../../../components/BreadCrumbs/BreadCrumbs";
-import Section from "../../../components/Section/Section";
+import Breadcrumbs from "../../../layouts/BreadCrumbs/BreadCrumbs";
+import Section from "../../../ui/Section/Section";
 
 import { getSingleProduct } from "../../../api/products";
 import { getSingleCategory } from "../../../api/categories";

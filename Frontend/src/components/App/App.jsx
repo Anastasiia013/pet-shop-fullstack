@@ -1,6 +1,6 @@
 import Navigation from '../../Navigation'
-import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
+import Header from '../../layouts/Header/Header'
+import Footer from '../../layouts/Footer/Footer'
 
 function App() {
   return (
